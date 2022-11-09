@@ -1,0 +1,129 @@
+.job-item-container {
+    list-style: none;
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    color: #320000;
+    background-image: linear-gradient(rgb(228, 255, 254), rgb(255, 255, 212));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .img-title-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .title-rating-container {
+    margin-top: 0;
+  }
+  
+  .company-logo {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+  }
+  
+  .title-heading {
+    color: #1b0000;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .star-rating-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+  
+  .star-icon {
+    color: #fbbf24;
+    font-size: 17px;
+    margin-left: 5px;
+  }
+  
+  .rating-text {
+    color: #190000;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  
+  .location-package-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .item-hr-line {
+    border: 0.5px solid red;
+  }
+
+  .description-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(64, 0, 66);
+  }
+
+  .description-para {
+    font-size: 14px;
+    font-weight: bold;
+    color: #190000;
+  }
+  
+  .location-job-type-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+  }
+  
+  .location-icon-location-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .location-icon {
+    color: #ff0000;
+    font-size: 17px;
+  }
+  
+  .location {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .job-type {
+    margin-top: 0;
+    font-size: 13px;
+    color: #173d00;
+    font-weight: bold;
+  }
+  
+  .package {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .link-item {
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .job-item-container {
+      width: 100%;
+    }
+  
+    .title-heading {
+      font-size: 25px;
+    }
+  }
