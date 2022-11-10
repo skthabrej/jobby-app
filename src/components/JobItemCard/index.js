@@ -20,12 +20,13 @@ class AboutJobItem extends Component {
   }
 
   componentDidMount() {
-    this.getJobData()
+    let url = window.location.href
+    let urlList = url.split('/')
+    let id = urlList[urlList.length-1]
+    this.getJobData(id)
   }
 
-  getJobData = async() => {
-    const {jobDataDetails} = this.state
-    const {id} = jobDataDetails
+  getJobData = async(id) => {
     this.setState({apiStatus: apiStatusConstants.inProgress})
     const jwtToken = Cookies.get('jwt_token')
     const jobDetailsApiUrl = `https://apis.ccbp.in/jobs/${id}`
@@ -36,7 +37,6 @@ class AboutJobItem extends Component {
     const responseJobData = await fetch(jobDetailsApiUrl, optionsJobData)
     if (responseJobData.ok === true) {
       const fetchedJobData = await responseJobData.json()
-      console.log(fetchedJobData)
       const updatedJobDetailsData = [fetchedJobData.job_details].map(
         eachItem => ({
           companyLogoUrl: eachItem.company_logo_url,

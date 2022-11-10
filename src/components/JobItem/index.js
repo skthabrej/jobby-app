@@ -20,7 +20,7 @@ class JobItem extends Component {
         } = jobData
         return(
             <Link to={`/jobs/${id}`} className="link-item">
-            <li className="job-item-container" onClick={this.redirectToJobCard}>
+            <li className="job-item-container">
                 <div className="first-part-container">
                     <div className="img-title-container">
                         <img className="company-logo" src={companyLogoUrl} alt="company logo"/>
