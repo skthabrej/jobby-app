@@ -3,13 +3,15 @@ import { Component } from 'react'
 import { Navigate } from 'react-router-dom'
 import Header from '../Header'
 import Cookies from 'js-cookie'
+import { Navigate } from 'react-router-dom'
 
 const cookieExit = Cookies.get('jwt_token') === undefined ? false : true
 
 class Home extends Component {
 
     onGetJobs = () => {
-        window.location.replace('/jobs')
+        // window.location.replace('/jobs')
+        <Navigate to='/jobs'/>
     }
 
     getHome = () => {
