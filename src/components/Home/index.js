@@ -1,18 +1,13 @@
 import './index.css'
 import { Component } from 'react'
-import { Navigate } from 'react-router-dom'
 import Header from '../Header'
 import Cookies from 'js-cookie'
 import { Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const cookieExit = Cookies.get('jwt_token') === undefined ? false : true
 
 class Home extends Component {
-
-    onGetJobs = () => {
-        // window.location.replace('/jobs')
-        <Navigate to='/jobs'/>
-    }
 
     getHome = () => {
         return(
@@ -26,7 +21,7 @@ class Home extends Component {
                     information,company reviews.Find the job that fits your<br/>
                     abilities and potential
                     </p>
-                    <button type="button" className="find-jobs-button" onClick={this.onGetJobs}>Find Jobs</button>
+                    <Link to='/jobs'><button type="button" className="find-jobs-button" >Find Jobs</button></Link>
                 </div>
                 </>
             </div>
