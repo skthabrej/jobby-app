@@ -22,6 +22,7 @@
   color: #02b5c9;
   font-size: 20px;
   font-weight: 500;
+  width: 30%;
 }
 
 .find-jobs-button {
@@ -36,4 +37,15 @@
   height: 40px;
   cursor: pointer;
   margin-top: 30px;
+}
+@media screen and (max-width:600px){
+  .home-heading{
+    font-size: 25px;
+    width: 100%;
+    padding: 0;
+  }
+  .home-description{
+    font-size: 17px;
+    width: 100%;
+  }
 }

@@ -15,10 +15,10 @@ class Home extends Component {
                 <>
                 <Header/>
                 <div className="home-content">
-                    <h1 className="home-heading">Find The Job That <br/>Fits Your Life</h1>
+                    <h1 className="home-heading">Find The Job That Fits Your Life</h1>
                     <p className="home-description">
-                    Millions of people are searching for jobs,salary,<br/>
-                    information,company reviews.Find the job that fits your<br/>
+                    Millions of people are searching for jobs,salary,
+                    information,company reviews.Find the job that fits your
                     abilities and potential
                     </p>
                     <Link to='/jobs'><button type="button" className="find-jobs-button" >Find Jobs</button></Link>
