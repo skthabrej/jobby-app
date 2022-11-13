@@ -19,7 +19,7 @@ class LoginForm extends Component {
     }
 
     onSubmitFailure = errorMessage => {
-        this.setState({showSubmitError:true,errorMessage})
+        this.setState({showSubmitError:true,errorMessage:'Username or Password is invalid'})
     }
 
     submitForm = async event => {
