@@ -22,8 +22,8 @@ class Header extends Component {
           <Link to="/"><li className="nav-item">Home</li></Link>
           <Link to="/jobs"><li className="nav-item">Jobs</li></Link>
           <div style={{display:'flex',flexDirection:'row',justifyContent:'space-around',width:'40%'}}>
-            <Link to="/"><i class="fa-solid fa-house-chimney icons-img"></i></Link>
-            <i class="fa-solid fa-right-from-bracket icons-img" onClick={this.onLogout}></i>
+            <Link to="/"><i className="fa-solid fa-house-chimney icons-img"></i></Link>
+            <i className="fa-solid fa-right-from-bracket icons-img" onClick={this.onLogout}></i>
           </div>
         </ul>
         <div className="nav-items-container">
