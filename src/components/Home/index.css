@@ -19,7 +19,7 @@
 }
 
 .home-description {
-  color: #02b5c9;
+  color: #2b001a;
   font-size: 20px;
   font-weight: 500;
   width: 30%;
@@ -27,7 +27,7 @@
 
 .find-jobs-button {
   color: #ffffff;
-  background-color: #00b2e4;
+  background-color: #002833;
   font-weight: bold;
   font-size: 15px;
   font-style: 'Roboto';
@@ -47,5 +47,8 @@
   .home-description{
     font-size: 17px;
     width: 100%;
+  }
+  .bg-container {
+    background-image: url('https://i.postimg.cc/TPGcx6wr/career.png');
   }
 }
