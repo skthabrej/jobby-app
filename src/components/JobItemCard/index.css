@@ -238,7 +238,7 @@
   border: 1px solid blueviolet;
 }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 600px) {
     .job-details-view-container {
       padding: 15px;
     }
