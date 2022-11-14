@@ -18,7 +18,7 @@
   .profile-container {
     background-image: url('https://i.postimg.cc/Wz2Cn62t/toppng-com-colored-abstract-grids-background-vector-500x290.png');
     background-size: cover;
-    padding: 15px;
+    padding: 25px;
     width: 290px;
     height: 20vh;
     border-radius: 25px;
@@ -31,14 +31,14 @@
   }
   
   .profile-name {
-    color: #505068;
+    color: #00004a;
     font-family: 'Roboto';
     font-size: 20px;
   }
   
   .profile-description {
     font-family: 'Roboto';
-    color: #000000;
+    color: #9c0000;
     font-weight: bold;
     font-size: 15px;
   }

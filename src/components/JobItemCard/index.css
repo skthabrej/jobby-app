@@ -1,12 +1,12 @@
   .job-item-card-container {
     list-style: none;
-    background-image: linear-gradient(rgb(228, 255, 254), rgb(255, 255, 212));
+    background-image: linear-gradient(rgb(228, 255, 254), rgb(255, 255, 148),rgb(228, 255, 254));
     border-radius: 10px;
     padding: 35px;
     margin-bottom: 20px;
     font-family: 'Roboto';
     color: #ffffff;
-    height: 100vh;
+    height: 130vh;
     background-size: cover;
   }
 
@@ -91,7 +91,7 @@
   }
 
   .skill-name {
-    color: #000000;
+    color: #16007a;
     font-size: 20px;
   }
   
@@ -101,7 +101,7 @@
   }
   
   .life-para {
-    color: #000000;
+    color: #191313;
     font-size: 18px;
     font-weight: bold;
   }
@@ -195,7 +195,8 @@
     display: flex;
     flex-direction: row;
     width: 30%;
-    margin-bottom: 50px;
+    margin: 20px;
+    flex-wrap: wrap;
   }
   
   .company-life-img-container {
@@ -224,8 +225,8 @@
   }
   
   .skill-img {
-    width: 70px;
-    height: 70px;
+    width: 50%;
+    height: 60%;
     margin-right: 10px;
   }
 
@@ -238,36 +239,44 @@
   border: 1px solid blueviolet;
 }
 
-  @media screen and (max-width: 600px) {
-    .job-details-view-container {
-      padding: 15px;
-    }
-  
-    .company-life-img-container {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .life-heading-para-container {
-      width: 100%;
-    }
-  
-    .ul-job-details-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-  
-    .li-job-details-container {
-      width: 100%;
-    }
-  
-    .skill-img {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .employment-type-icon-employment-type-container {
-      margin-left: 30px;
-    }
+@media screen and (max-width: 600px) {
+  .job-details-view-container {
+    padding: 15px;
   }
+
+  .company-life-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .life-heading-para-container {
+    width: 100%;
+  }
+
+  .ul-job-details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .skill-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .employment-type-icon-employment-type-container {
+    margin-left: 30px;
+  }
+  .life-heading {
+    font-size: 15px;
+  }
+  .life-para {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .life-img{
+    display: block;
+  }
+  .job-item-card-container {
+    height: 210vh;
+  }
+}

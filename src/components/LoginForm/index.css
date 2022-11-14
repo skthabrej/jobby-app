@@ -103,4 +103,8 @@
   .login-form-container{
     margin: 0;
   }
+  .bg-login-container{
+    background-image: url('https://i.postimg.cc/MGp4bVSM/wallpaperflare-com-wallpaper-4.jpg');
+    height: 100vh;
+  }
 }

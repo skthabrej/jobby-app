@@ -128,11 +128,11 @@ class AboutJobItem extends Component {
               ))}
           </ul>
           <div className="company-life-img-container">
-              <div className="life-heading-para-container">
-                  <h1 className='life-heading'>Life at Company</h1>
-                  <p className='life-para'>{lifeAtCompany.description}</p>
-              </div>
-              <img src={lifeAtCompany.imageUrl} alt="life at company" className='life-img'/>
+            <div className="life-heading-para-container">
+                <h1 className='life-heading'>Life at Company</h1>
+                <p className='life-para'>{lifeAtCompany.description}</p>
+            </div>
+            <img src={lifeAtCompany.imageUrl} alt="life at company" className='life-img'/>
           </div>
       </div>
     </>
